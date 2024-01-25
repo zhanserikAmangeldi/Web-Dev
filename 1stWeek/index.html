@@ -1,0 +1,177 @@
+<!DOCTYPE>
+<html lang="en-US">
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="author" content="Amangeldi Zhanserik" />
+    <meta name="description" content="Здесь я буду тестировать все возможные методы, стили, и скрипты">
+
+    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>
+        Тег для того чтобы указать Заголовок Страницы
+    </title>
+
+
+</head>
+<body>
+    <h1>First level header</h1>  <!--Use only one time in one page-->
+    <h2>Second level</h2>   <!--Save hierarchy, do not use h2 and h3 in one level-->
+    <h3>Third level</h3>    <!--You should understand how many level you can use in website, more than 3 it is not very good-->
+    <h4>Fourth level</h4>   <!---->
+    <h5>Fifth level</h5>
+    <h6>Sixth level</h6>
+
+    <p>just paragraph</p><p>some info <span lang="rus">Теперь этот язык этого кусочка будет индексироваться на русском</span></p>
+
+    <h3><a href="#Fragment of website">Hyperlink for fragment in website</a></h3>
+
+
+    <h2>LIST</h2>
+    <h3>Unordered List</h3>
+    <ul>
+        <li>first</li>
+
+        <li>second</li>
+
+        <li>third</li>
+    </ul>
+
+    <h3>Ordered List</h3>
+    <ol>
+        <li>first</li>
+        <li>second</li>
+        <li>third</li>
+    </ol>
+
+    <h3>Nested List</h3>
+    <ol>
+        <li>First</li>
+        <li>
+            Second
+            <ul>
+                <li>Second, first</li>
+                <li>Second, second</li>
+            </ul>
+        </li>
+        <li>Third</li>
+    </ol>
+
+
+
+    <h2>Accent</h2>
+
+    <h3>Семантическое значение имееют</h3>
+    <p>Я <em>рад</em>, что ты не <em>опоздал</em>.</p>
+    <p>Это жидкость <strong>очень токсична</strong>.</p>
+
+
+    <p>Я просто <strong><em>устал</em></strong>.</p> <!-- there is no difference between what in what was nested -->
+    <p>Я просто <em><strong>устал</strong></em>.</p>
+
+    <h3>Не имеею семантического значения</h3>
+    <p>Я <i>рад</i>, что ты не <i>опоздал</i>.</p>
+    <p>Это жидкость <b>очень токсична</b></p>
+
+
+    <p>Я просто <b><i>устал</i></b>.</p> <!-- there is no difference between what in what was nested -->
+    <p>Я просто <i><b>устал</b></i>.</p>
+
+    <u>Лучшее использовать с умом, потому что завелось в инете использовать их для ссылок</u>
+
+    <h2>HyperLink</h2>
+    <p>Ссылки могут быть вложенные и в них самих можно вложить что-то</p>
+
+    <p>Здравствуйте, меня зовут Жансерик, если что вот мой <a href="https://t.me/Ep0cson">телеграм аккаунт</a></p>
+
+    <a href="https://t.me/Ep0cson" title="Ссылка на аккаунт Жансерик(меня)"><h3>MY TELEGRAM ACCOUNT</h3></a>
+
+    <h3 id="Fragment of website">Hyperlink to fragments of website</h3>
+    
+    <h3>link to media</h3>
+    <p>
+        <a href="media/Чарльз%20Петцольд%20-%20Код_%20тайный%20язык%20информатики-Манн,%20Иванов%20и%20Фербер%20(2019).pdf">открыть Книгу Код</a>
+    </p>
+    <p>
+        <a href="media/Чарльз%20Петцольд%20-%20Код_%20тайный%20язык%20информатики-Манн,%20Иванов%20и%20Фербер%20(2019).pdf" download="code.pdf">скачать Книгу Код</a>
+    </p>
+
+    <h3>Link to email</h3>
+    <a href="mailto:ai_tazhibayeva@kbtu.kz">Отправить письмо для Айзада</a>
+
+
+    <h2>Advanced Formatting txt</h2>
+
+    <h3>List of Description</h3>
+
+    <dl>
+        <dt>html</dt>
+        <dd>the standard markup language for creating Web pages</dd>
+        <dt>Cascading Style Sheets (CSS)</dt>
+        <dd>a style sheet language used for specifying the presentation and styling of a document
+            written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).
+         </dd>
+    </dl>
+
+    <h3>Quotes</h3>
+
+    <h4>Block</h4>
+
+    <blockquote cite="https://developer.mozilla.org/ru/docs/Web/HTML/Element/blockquote">
+        <p>
+            <strong>HTML-элемент<code>&lt;blockquote&gt;</code></strong> (от англ.
+            <em>HTML Block Quotation Element</em>) указывает на то, что заключённый в
+            нём текст является развёрнутой цитатой.
+        </p>
+    </blockquote>
+
+    <h4>row</h4>
+    <p>
+        Как указано в статье о
+        <a href="https://developer.mozilla.org/ru/docs/Web/HTML/Element/blockquote">
+            <cite>блочных цитатах</cite></a
+        >: --
+        <a href="https://developer.mozilla.org/ru/docs/Web/HTML/Element/q">
+            <cite>Строчные цитаты</cite></a
+        >.
+    </p>
+
+
+    <h3>Abbreviation</h3>
+    <p>Мы используем <abbr title="Hypertext Markup Language">HTML</abbr> для структурирования наших веб-документов.</p>
+
+    <p>Я думаю, <abbr title="Почтенный">Почт.</abbr> Грин сделал это на кухне с бензопилой.</p>
+
+    <h3>Indices</h3>
+    <p>Я просыпаюсь в 6<sup>35</sup> часов утра.</p>
+    <p>
+        Химическая формула кофеина:
+        C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>.
+    </p>
+    <p>Если x<sup>2</sup> равно 9, x должен равняться 3 или -3.</p>
+
+
+    <h3>Date</h3>
+    <!-- Стандартная дата -->
+    <time datetime="2020-01-20">20 Января 2020</time> <br>
+    <!-- Только год и месяц -->
+    <time datetime="2020-01">Январь 2020</time> <br>
+    <!-- Только месяц и день -->
+    <time datetime="01-20">20 Января</time> <br>
+    <!-- Только время, часы и минуты -->
+    <time datetime="19:30">19:30</time> <br>
+    <!-- Также вы можете отобразить секунды и миллисекунды! -->
+    <time datetime="19:30:01.856">19:30:01.856</time> <br>
+    <!-- Дата и время -->
+    <time datetime="2020-01-20T19:30">7.30pm, 20 Января 2020</time> <br>
+    <!-- Дата и время со смещением по часовому поясу -->
+    <time datetime="2020-01-20T19:30+01:00"
+    >7.30pm, 20 Января 2020, — это 8.30pm во Франции.</time> <br>
+    <!-- Вызов номера недели -->
+    <time datetime="2020-W04">Четвёртая неделя 2020</time> <br>
+
+    <script src="script.js"></script>
+</body>
+</html>
