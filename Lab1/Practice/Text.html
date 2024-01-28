@@ -1,0 +1,102 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Work with Text</title>
+
+        <style>
+            h1{
+                border-style: solid;
+                border-color: black;
+                border-width: 2px;
+                text-align: center;
+            }
+            h2{
+                border-style: solid;
+                border-color: black;
+                border-width: 2px;
+                text-align: left;
+            }
+            h3{
+                border-style: solid;
+                border-color: black;
+                border-width: 2px;
+                text-align: right;
+            }
+            h4{
+                border-style: solid;
+                border-color: black;
+                border-width: 2px;
+            }
+            #first{
+                width: 400px;
+                text-align: right;
+                text-align-last: center;
+            }
+            #second{
+                width:400px;
+                direction: rtl; /*right to left*/
+                unicode-bidi: bidi-override;
+            }
+            span{
+                vertical-align: text-top;
+            }
+            table {
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+            }
+
+            table,
+            th,
+            td {
+                border: 1px solid black;
+            }
+
+            td {
+                padding: 0.5em;
+                font-family: monospace;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>First example</h1>
+        <h2>Second example</h2>
+        <h3>Third example</h3>
+        <h4>Third example</h4>
+
+
+
+        <p id="first">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            A, aperiam blanditiis delectus deleniti ea expedita illum.
+            Facilis nostrum porro quod? Ea, provident.
+        </p>
+        <div>
+            HELLO <span>zhanserik</span> WORLD!
+        </div>
+
+        <p id="second">
+            My way it is my own choose
+        </p>
+
+
+        <table>
+            <tr>
+                <td style="vertical-align: baseline">baseline</td>
+                <td style="vertical-align: top">top</td>
+                <td style="vertical-align: middle">middle</td>
+                <td style="vertical-align: bottom">bottom</td>
+                <td>
+                    <p>
+                        Существует теория, которая утверждает, что если однажды кто-нибудь
+                        доподлинно выяснит, что такое и для чего нужна Вселенная, она тотчас же
+                        исчезнет, и вместо неё появится нечто ещё более причудливое и
+                        необъяснимое.
+                    </p>
+                    <p>Существует и другая теория, согласно которой это уже случилось.</p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
