@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project: Recipe book</title>
+    <meta charset="utf-8">
+    <style>
+        body{
+            font-family: "Bell MT";
+            width: 80%;
+            margin: auto;
+        }
+        .steps{
+            padding-left: 0;
+            list-style: none;
+            width: 70%;
+        }
+        .steps li{
+            margin-bottom: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 70%;
+            padding: 10px;
+        }
+
+        th,
+        td {
+            border-left: 1px solid #222222;
+            border-right: 1px solid #222222;
+            padding: 8px 10px;
+        }
+        tbody tr:last-child th{
+            border-radius: 10px;
+            border-bottom: 1px solid #222222;
+        }
+        thead tr th {
+            border-width: 1px;
+            border-color: orange;
+            background-color: orange;
+            color: white;
+        }
+
+        caption {
+            text-align: left;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .info {
+            width: 70%;
+            display: inline-block;
+            border: #222222 2px solid;
+            border-top-color: orange;
+            padding: 40px 20px 10px 60px;
+            border-radius: 10px;
+        }
+        .info li{
+
+            margin-right: 50px;
+            display: inline-block;
+            margin-bottom: 30px
+        }
+
+        #nav {
+            line-height: 1.7em;
+            height: 100px;
+            color: orange;
+        }
+
+        #nav a{
+
+            text-decoration: none;
+            color: black;
+        }
+        #nav a:hover{
+            font-size: 1.5em;
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+<h1>Zhanserik's Recipe Book</h1>
+
+<h2>Contents:</h2>
+
+<ul id="nav">
+    <li><a href="#Apple-pie">Apple pie</a></li>
+    <li><a href="#Baked-Chicken">Baked Chicken</a></li>
+    <li><a href="#French-Toast">French Toast</a></li>
+</ul>
+<div id="temp"></div>
+<h2 id="Apple-pie">Apple pie</h2>
+
+<ul class="info">
+    <li><strong>Time:</strong> 1 hr 30 mins</li>
+    <li><strong>Serves:</strong> 8 piece</li>
+    <li>This amazing apple pie recipe belonged to my grandmother. I have never seen another one quite like it! It will always be my favorite and has won several first place prizes in local competitions. It makes the perfect dessert for family dinners or during the holidays, topped with whipped cream or ice cream, or alongside a slice of Cheddar cheese.</li>
+</ul>
+
+
+<table>
+    <caption>
+        Ingredients
+    </caption>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Quantity</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>Apples</th>
+        <th>8 piece</th>
+    </tr>
+    <tr>
+        <th>Butter</th>
+        <th>1/2 cup</th>
+    </tr>
+    <tr>
+        <th>Flour</th>
+        <th>3 tablespoons</th>
+    </tr>
+    <tr>
+        <th>White sugar</th>
+        <th>1/2 cup</th>
+    </tr>
+    <tr>
+        <th>Brown sugar</th>
+        <th>1/2 cup</th>
+    </tr>
+    <tr>
+        <th>Water</th>
+        <th>1/4 cup</th>
+    </tr>
+    <tr>
+        <th>Double-crust pie pastry, thawed</th>
+        <th>1(9 inch)</th>
+    </tr>
+    </tbody>
+</table>
+<h2>Steps</h2>
+<ul class="steps">
+    <li><strong>Step 1: </strong>Peel and core apples, then thinly slice. Set aside.</li>
+    <li><strong>Step 2: </strong>Preheat the oven to 425 degrees F (220 degrees C).<br></li>
+    <li>
+        <strong>Step 3: </strong>Melt butter in a saucepan over medium heat.
+        Add flour and stir to form a paste; cook until fragrant, about 1 to 2 minutes.
+        Add both sugars and water; bring to a boil. Reduce the heat to low and simmer for 3 to 5 minutes.
+        Remove from the heat.<br>
+    </li>
+    <li>
+        <strong>Step 4: </strong>Press one pastry into the bottom and up the sides of a 9-inch pie pan.
+        Roll out remaining pastry so it will overhang the pie by about 1/2 inch.
+        Cut pastry into eight 1-inch strips.<br>
+    </li>
+    <li>
+        <strong>Step 5: </strong>Place sliced apples into the bottom crust, forming a slight mound.
+        Lay four pastry strips vertically and evenly spaced over apples,
+        using longer strips in the center and shorter strips at the edges.<br>
+    </li>
+    <li>
+        <strong>Step 6: </strong>Make a lattice crust: Fold the first and third strips all the way back so they're almost falling off the pie.
+        Lay one of the unused strips perpendicularly over the second and fourth strips,
+        then unfold the first and third strips back into their original position.<br>
+    </li>
+    <li>
+        <strong>Step 7: </strong>Fold the second and fourth vertical strips back.
+        Lay one of the three unused strips perpendicularly over top.
+        Unfold the second and fourth strips back into their original position.<br>
+    </li>
+    <li>
+        <strong>Step 8: </strong>Repeat Steps 6 and 7 to weave in the last two strips of pastry.
+        Fold and trim excess dough at the edges as necessary, and pinch to secure.<br>
+    </li>
+    <li>
+        <strong>Step 9: </strong>Slowly and gently pour sugar-butter mixture over lattice crust, making sure it seeps over sliced apples.
+        Brush some onto lattice, but make sure it doesn't run off the sides.<br>
+    </li>
+    <li>
+        <strong>Step 10: </strong>Bake in the preheated oven for 15 minutes.
+        Reduce the temperature to 350 degrees F (175 degrees C) and continue baking until apples are soft, 35 to 45 minutes.<br>
+    </li>
+</ul>
+
+<p><em>Source: <a href="https://www.allrecipes.com/recipe/12682/apple-pie-by-grandma-ople/">AllRecipes</a></em></p>
+
+
+
+<h2 id="Baked-Chicken">Simple Baked Chicken Breasts</h2>
+
+<ul class="info">
+    <li><strong>Time:</strong> 35 mins</li>
+    <li><Strong>Serves:</Strong> 4 piece</li>
+    <li>Learn how to bake chicken that's tender, juicy, and perfect every time with this simple, 5-ingredient recipe for boneless, skinless chicken breasts. Adding just a bit of chicken broth to those beautiful pan drippings creates a tasty pan sauce that adds extra flavor at the table.</li>
+</ul>
+
+
+<table>
+    <caption>
+        Ingredients
+    </caption>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Quantity</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>Chicken breast</th>
+        <th>4 piece</th>
+    </tr>
+    <tr>
+        <th>Olive oil</th>
+        <th>2 tablespoons</th>
+    </tr>
+    <tr>
+        <th>Sea salt</th>
+        <th>1/2 teaspoon</th>
+    </tr>
+    <tr>
+        <th>Creole seasoning</th>
+        <th>1 pinch</th>
+    </tr>
+    <tr>
+        <th>Chicken broth</th>
+        <th>1 tablespoons</th>
+    </tbody>
+</table>
+<h2>Steps</h2>
+<ul class="steps">
+    <li><strong>Step 1: </strong>Gather all ingredients.</li>
+    <li><strong>Step 2: </strong>Preheat the oven to 400 degrees F (200 degrees C).<br></li>
+    <li>
+        <strong>Step 3: </strong>Rub chicken breasts with olive oil and sprinkle
+        both sides with salt and Creole seasoning. Place chicken in a broiler pan.<br>
+    </li>
+    <li>
+        <strong>Step 4: </strong>Bake in the preheated oven for 10 minutes.
+        Flip chicken and cook until no longer pink in the center and the juices run clear, about 15 minutes more.
+        An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C).<br>
+    </li>
+    <li>
+        <strong>Step 5: </strong>Remove chicken to a plate..<br>
+    </li>
+    <li>
+        <strong>Step 6: </strong>Pour chicken broth into the pan and scrape any browned bits off the bottom with a flat-edged wooden spatula.
+        Add more broth if needed to dislodge the browned bits, but not too much or it will be watery.<br>
+    </li>
+    <li>
+        <strong>Step 7: </strong>To serve, drizzle the pan sauce over the chicken.<br>
+    </li>
+</ul>
+
+<p><em>Source: <a href="https://www.allrecipes.com/recipe/240208/simple-baked-chicken-breasts/">AllRecipes</a></em></p>
+
+
+<h2 id="French-Toast">Croissant French Toast Bake</h2>
+<ul class="info">
+    <li><strong>Time:</Strong> 1 hr</li>
+    <li><strong>Serves:</Strong> 10 piece</li>
+    <li>This croissant French toast bake is perfect for company or a holiday brunch—a grander version of breakfast pudding or baked French toast. Buttery croissants crisp on the top, and make it look as if you spent all day, but it is very easy to put together.</li>
+</ul>
+
+
+<table>
+    <caption>
+        Ingredients
+    </caption>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Quantity</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>Eggs</th>
+        <th>6 large piece</th>
+    </tr>
+    <tr>
+        <th>Milk</th>
+        <th>1 cup</th>
+    </tr>
+    <tr>
+        <th>Cream</th>
+        <th>1/2 cup</th>
+    </tr>
+    <tr>
+        <th>Brown sugar</th>
+        <th>2 tablespoons</th>
+    </tr>
+    <tr>
+        <th>Vanilla extract</th>
+        <th>2 teaspoons</th>
+    </tr>
+    <tr>
+        <th>Salt</th>
+        <th>1/4 teaspoons</th>
+    </tr>
+    <tr>
+        <th>Cinnamon</th>
+        <th>2 teaspoons</th>
+    </tr>
+    <tr>
+        <th>Croissants</th>
+        <th>8 large piece</th>
+    </tr>
+    <tr>
+        <th>Confectioner's sugar, fresh berries, or maple syrup(serving)</th>
+        <th>Optional</th>
+    </tr>
+    </tbody>
+</table>
+<h2>Steps</h2>
+<ul class="steps">
+    <li>
+        <strong>Step 1: </strong>Gather all ingredients. Preheat the oven to 350 degrees F (175 degrees C).
+        Generously coat a 9x13-inch baking dish with nonstick cooking spray.
+    </li>
+    <li><strong>Step 2: </strong>Whisk together eggs, milk, heavy cream,
+        brown sugar, vanilla, cinnamon, and salt in a large bowl.<br></li>
+    <li>
+        <strong>Step 3: </strong>Dip each croissant half in the egg mixture until fully soaked.<br>
+    </li>
+    <li>
+        <strong>Step 4: </strong>Arrange dipped croissants in the prepared baking dish,
+        overlapping as needed. Pour any remaining egg mixture over croissants.<br>
+    </li>
+    <li>
+        <strong>Step 5: </strong>Bake in the preheated oven until golden brown
+        and a knife inserted in the center comes out clean, about 30 minutes.<br>
+    </li>
+    <li>
+        <strong>Step 6: </strong>Let stand 15 minutes before serving. Serve with desired toppings.<br>
+    </li>
+</ul>
+
+<p><em>Source: <a href="https://www.allrecipes.com/croissant-french-toast-bake-recipe-8415810">AllRecipes</a></em></p>
+
+
+</body>
+</html>
