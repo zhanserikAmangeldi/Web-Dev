@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+#wrapper{
+    min-height: 100%;
+}
+
+#main{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    min-height: 100%;
+    padding-bottom: 135px;
+}
+
+
+#left{
+    margin-right: 32px;
+    margin-bottom: 12px;
+}
+
+
+#right{
+    display: inherit;
+    width: 350px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12px;
+}
+
+#right-main{
+    display: inherit;
+    flex-direction: inherit;
+    align-items: inherit;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.main-border{
+    width: 350px;
+    border: 1px rgb(219, 219, 219) solid;
+}
+
+#right-login{
+    padding-top: 24px;
+    display: inherit;
+    flex-direction: inherit;
+    align-items: inherit;
+}
+
+button{
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(75, 180, 248);
+    width: 268px;
+    line-height: 18px;
+    padding: 7px 16px;
+}
+
+input{
+    font-size: 12px;
+    height: 20px;
+    width: 250px;
+    padding: 9px 7px 7px 8px;
+    margin: 0 40px 6px 40px;
+    outline: none;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1px;
+}
+
+input[type="text"],   textarea{
+    background-color: rgb(250, 250, 250);
+}
+
+
+#btn{
+    width: 268px;
+    height: 32px;
+    margin: 8px 40px;
+}
+
+hr{
+    border: none;
+    border-top: 0.5px solid rgb(219, 219, 219);
+    width: 100px;
+
+}
+
+#or{
+    color: rgb(115, 115, 115);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 18px 40px
+}
+#or p{
+    margin: 0 15px;
+}
+
+#or div{
+    margin: auto 0;
+}
+
+#right-log-facebook{
+    display: flex;
+    text-align: center;
+    margin: 8px 40px;
+    font-size: 14px;
+
+}
+
+#link-facebook, a{
+    color:#385185;
+    margin: 0px 3px;
+    text-decoration: none;
+
+}
+
+#p-link{
+
+    margin: 0;
+    width: 267px;
+}
+
+#forgetPassword{
+    margin-top: 12px;
+    font-size: 12px;
+    height: 16px;
+}
+
+#right-reg{
+    text-align: center;
+    font-size: 13px;
+    padding: 8px 0;
+    margin-bottom: 10px;
+}
+
+#right-reg a{
+    color: rgb(75, 180, 248);
+}
+
+#right-reg p{
+    margin: 15px;
+}
+
+
+#right-down{
+    display: flex;
+    flex-direction: column;
+}
+
+#links-to-app{
+    width: 350px;
+    height: 44px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#links-to-app img{
+    width: 110px;
+    height: 40px;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 83px;
+    color: rgb(115, 115, 115);
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: -83px;
+}
+
+ul{
+    word-spacing: 1px;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#select{
+    width: 70px;
+    border: none;
+    color: rgb(115, 115, 115);
+    font-weight: 400;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+#end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 12px 0;
+}
