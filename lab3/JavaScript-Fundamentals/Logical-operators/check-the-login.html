@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let login = prompt("Who's there?", '');
+
+    if(login == 'TheMaster'){
+        let password = prompt("Password: ", '')
+        if(password === 'admin'){
+            alert('Welcome!')
+        }else if(password === '' || password == null){
+            alert('Canceled')
+        }else{
+            alert("Wrong password")
+        }
+    }else if(login == '' || login == null){
+        alert('Canceled')
+    }else{
+        alert("I don't know you")
+    }
+</script>
+</body>
+</html>
