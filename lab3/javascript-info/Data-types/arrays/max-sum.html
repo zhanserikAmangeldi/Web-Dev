@@ -1,0 +1,22 @@
+<script>
+    function maxSubSum(array){
+        maxSum = 0;
+        localSum = 0;
+
+        for(let i of array){
+            localSum += i;
+            maxSum = Math.max(localSum, maxSum)
+            if(localSum < 0) localSum = 0;
+        }
+
+        return maxSum
+    }
+
+
+    alert( maxSubSum([-1, 2, 3, -9]) ); // 5
+    alert( maxSubSum([-1, 2, 3, -9, 11]) ); // 11
+    alert( maxSubSum([-2, -1, 1, 2]) ); // 3
+    alert( maxSubSum([100, -9, 2, -3, 5]) ); // 100
+    alert( maxSubSum([1, 2, 3]) ); // 6
+    alert( maxSubSum([-1, -2, -3]) ); // 0
+</script>
