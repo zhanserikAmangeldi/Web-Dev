@@ -16,6 +16,15 @@ function addTask(){
     saveTasks()
 }
 
+let input = document.getElementById("input-box")
+
+input.addEventListener("keypress", function(event){
+    if(event.key === "Enter"){
+        document.getElementById("btn").click()
+    }
+})
+
+
 
 listContainer.addEventListener("click", function(e){
     if(e.target.tagName === "LI"){
