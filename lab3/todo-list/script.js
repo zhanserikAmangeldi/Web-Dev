@@ -31,7 +31,6 @@ input.addEventListener("keypress", function(event){
 
 
 listContainer.addEventListener("click", function(e){
-    alert(e.target.parentElement.id)
     if(e.target.tagName === "LI"){
         completedListContainer.appendChild(e.target)
         e.target.classList.toggle("checked")
@@ -43,7 +42,6 @@ listContainer.addEventListener("click", function(e){
 }, false);
 
 completedListContainer.addEventListener("click", function(e){
-    alert(e.target.parentElement.id)
     if(e.target.tagName === "LI"){
         listContainer.appendChild(e.target)
         e.target.classList.toggle("checked")
