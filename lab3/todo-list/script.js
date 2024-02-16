@@ -1,5 +1,9 @@
 const inputBox = document.getElementById("input-box")
 const listContainer = document.getElementById("list-container")
+const completedListContainer = document.getElementById("completed-list-container")
+
+const uncomp = document.getElementById("uncomp")
+const comp = document.getElementById("comp")
 
 function addTask(){
     if(inputBox.value === '') {
@@ -27,21 +31,40 @@ input.addEventListener("keypress", function(event){
 
 
 listContainer.addEventListener("click", function(e){
+    alert(e.target.parentElement.id)
     if(e.target.tagName === "LI"){
+        completedListContainer.appendChild(e.target)
         e.target.classList.toggle("checked")
-
     }
     else if(e.target.tagName === "SPAN"){
         e.target.parentElement.remove();
     }
     saveTasks()
-}, false); 
+}, false);
+
+completedListContainer.addEventListener("click", function(e){
+    alert(e.target.parentElement.id)
+    if(e.target.tagName === "LI"){
+        listContainer.appendChild(e.target)
+        e.target.classList.toggle("checked")
+    }
+    else if(e.target.tagName === "SPAN"){
+        e.target.parentElement.remove();
+    }
+    saveTasks()
+}, false);
+
+
+
+
 
 function saveTasks() {
-    localStorage.setItem("data", listContainer.innerHTML);
+    localStorage.setItem("tasks", listContainer.innerHTML)
+    localStorage.setItem("completedTasks", completedListContainer.innerHTML)
 }
 
 function showTasks() {
-    listContainer.innerHTML = localStorage.getItem("data")
+    listContainer.innerHTML = localStorage.getItem("tasks")
+    completedListContainer.innerHTML = localStorage.getItem("completedTasks")
 }
 showTasks()
