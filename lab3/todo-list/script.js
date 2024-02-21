@@ -6,7 +6,7 @@ const uncomp = document.getElementById("uncomp")
 const comp = document.getElementById("comp")
 
 function addTask(){
-    if(inputBox.value === '') {
+    if(inputBox.value.trim() === '') {
         alert("You must write something")
     }else {
         let li = document.createElement("li")

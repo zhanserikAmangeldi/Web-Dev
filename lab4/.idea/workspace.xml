@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="369bd4ae-5e80-4ab4-b893-e952a48f69d5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../lab3/todo-list/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/todo-list/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lab4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lab4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/app.config.server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/app.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/app/app.routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/main.server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/tsconfig.spec.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2cfeacu28JeyHyZZucZVWi8iJ4p" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "C:\\Users\\amang\\Desktop\\Life\\University\\4th\\Subjects\\Web\\lab4\\my-store\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\amang\Desktop\Life\University\4th\Subjects\Web\lab4\my-store\src\assets" />
+      <recent name="C:\Users\amang\Desktop\Life\University\4th\Subjects\Web\lab4\My-Store\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="369bd4ae-5e80-4ab4-b893-e952a48f69d5" name="Changes" comment="" />
+      <created>1708507126534</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708507126534</updated>
+      <workItem from="1708507127869" duration="555000" />
+      <workItem from="1708507705965" duration="17259000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
