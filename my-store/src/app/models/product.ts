@@ -8,6 +8,5 @@ export interface IProduct {
   rating: {
     rate: number,
     count: number
-  },
-  url: string
+}
 }

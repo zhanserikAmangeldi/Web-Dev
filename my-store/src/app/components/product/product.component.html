@@ -8,9 +8,7 @@
       <img src="https://resources.cdn-kaspi.kz/yml/static/assets/badges/b5.svg" alt="">
     </div>
   </div>
-  <div class="image-frame">
-    <img [src]="product.image" [alt]="product.title" class="photo">
-  </div>
+  <img [src]="product.image" [alt]="product.title" class="photo">
   <hr>
   <div class="product-link">
     <a href="#popup{{product.id}}" target="_self">{{(product.title|slice:0:40) + "..."}}</a>
@@ -28,9 +26,11 @@
       <div class="yellow">{{(product.price/3)|number:'1.0-0'}} </div> x3
     </div>
     <div class="share-btn">
-      <a href="" (click)="shareClick(encodeURIComponent(product.title + '\n' + product.description.slice(0,100)), encodeURIComponent(product.url))">
-      <img src="../../../assets/Telegram_logo.svg" alt="">
-      </a>
+      <button mat-fab shareButton="facebook"
+              #fbBtn="shareButton"
+              [style.backgroundColor]="fbBtn?.color">
+        <fa-icon *ngIf="fbBtn" [icon]="fbBtn.icon" size="lg"></fa-icon>
+      </button>
     </div>
   </div>
 
@@ -45,3 +45,10 @@
     </div>
   </div>
 </div>
+
+
+<div id="data" style="visibility: hidden; opacity: 0">
+  <span id="id">{{product.id}}</span>
+</div>
+
+

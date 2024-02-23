@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import {NgForOf, TitleCasePipe} from "@angular/common";
 import {ProductComponent} from "./components/product/product.component";
 import {IProduct} from "./models/product";
-import { products as data} from './data/products';
+import {products as data} from './data/products';
 import {ProductsService} from "./services/products.service";
 
 @Component({
@@ -20,7 +20,11 @@ export class AppComponent implements OnInit{
   constructor(private productsService: ProductsService) {
   }
   ngOnInit() {
-    this.products = data
+    this.productsService.getAll().subscribe(
+      products => {
+        this.products = products
+      }
+    )
   }
 
 }

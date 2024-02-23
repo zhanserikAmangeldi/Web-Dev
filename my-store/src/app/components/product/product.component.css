@@ -8,9 +8,6 @@
   border-left: none;
   margin-bottom: -1px;
 }
-
-
-
 .card-sticker{
   position: absolute;
   top: 10px;
@@ -26,12 +23,6 @@
   width: 211px;
   height: 150px;
   object-fit: scale-down;
-  margin-bottom: 21px;
-}
-
-.image-frame{
-  width: 211px;
-  height: 150px;
   margin-bottom: 21px;
 }
 

@@ -1,7 +1,9 @@
 import {Component, Input} from "@angular/core";
 import {IProduct} from "../../models/product";
-import {CurrencyPipe, DecimalPipe, SlicePipe} from "@angular/common";
-
+import {CurrencyPipe, DecimalPipe, NgIf, SlicePipe} from "@angular/common";
+import { ShareModule } from "ngx-sharebuttons";
+import { ShareIconsModule } from "ngx-sharebuttons/icons";
+import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
 @Component({
   selector: 'app-product',
   standalone: true,
@@ -9,7 +11,11 @@ import {CurrencyPipe, DecimalPipe, SlicePipe} from "@angular/common";
   imports: [
     CurrencyPipe,
     DecimalPipe,
-    SlicePipe
+    SlicePipe,
+    ShareModule,
+    ShareIconsModule,
+    FaIconLibrary,
+    NgIf
   ],
   styleUrl: './product.component.css'
 })
@@ -17,13 +23,6 @@ import {CurrencyPipe, DecimalPipe, SlicePipe} from "@angular/common";
 
 export class ProductComponent {
   @Input() product: IProduct
-
-  shareClick(text: string, url: string){
-    const shareUrl = `https://t.me/share/url?url=${url}&text=${text}`;
-    window.open(shareUrl, '_blank');
-  }
-
-  protected readonly encodeURIComponent = encodeURIComponent;
 }
 
 
