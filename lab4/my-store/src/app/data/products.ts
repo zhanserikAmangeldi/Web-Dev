@@ -1,5 +1,3 @@
-import {IProduct} from "../models/product";
-
 export const products = [
   {
   "id":1,
@@ -52,7 +50,8 @@ export const products = [
       "count": 1519,
     },
     "url": "https://kaspi.kz/shop/p/apple-iphone-13-128gb-midnight-chernyi-102298404/?c=750000000"
-  },{
+  },
+  {
     "id": 3,
     "title": "Смартфон Apple iPhone 15 128Gb черный",
     "price": 387737,
@@ -85,7 +84,8 @@ export const products = [
       "count": 338,
     },
     "url": "https://kaspi.kz/shop/p/apple-iphone-15-128gb-chernyi-113137790/?c=750000000"
-  },{
+  },
+  {
     "id": 4,
     "title": "Пылесос Deerma DX700S серый",
     "price": 19489,
@@ -99,7 +99,8 @@ export const products = [
       "count": 450
     },
     "url": "https://kaspi.kz/shop/p/deerma-dx700s-seryi-100680527/?c=750000000"
-  },{
+  },
+  {
     "id": 5,
     "title": "Wi-Fi роутер TP-LINK Archer C80",
     "price": 24994,
@@ -111,7 +112,8 @@ export const products = [
       "count": 231,
     },
     "url": "https://kaspi.kz/shop/p/wi-fi-router-tp-link-archer-c80-100663389/?c=750000000"
-  },{
+  },
+  {
     "id": 6,
     "title": "SSD Kingston SA400S37 480 ГБ",
     "price": 17650,
@@ -124,7 +126,8 @@ export const products = [
       "count": 613,
     },
     "url": "https://kaspi.kz/shop/p/ssd-kingston-sa400s37-480-gb-6800659/?c=750000000"
-  },{
+  },
+  {
     "id": 7,
     "title": "Мышь Logitech G102 Lightsync черный",
     "price": 8998,
@@ -137,7 +140,8 @@ export const products = [
       "count": 713,
     },
     "url": "https://kaspi.kz/shop/p/logitech-g102-lightsync-chernyi-100956618/?c=750000000"
-  },{
+  },
+  {
     "id": 8,
     "title": "Ноутбук Apple MacBook Air 13 MGN93 серебристый",
     "price": 409500,
@@ -170,7 +174,8 @@ export const products = [
       "count": 217,
     },
     "url": "https://kaspi.kz/shop/p/apple-macbook-air-13-mgn93-serebristyi-100798912/?c=750000000"
-  },{
+  },
+  {
     "id": 9,
     "title": "Планшет Samsung Galaxy Tab S9 SM-X716 11 дюйм 8 Гб/128 Гб графит",
     "price": 319070,
@@ -189,7 +194,8 @@ export const products = [
       "count": 7,
     },
     "url": "https://kaspi.kz/shop/p/samsung-galaxy-tab-s9-sm-x716-11-djuim-8-gb-128-gb-grafit-112488621/?c=750000000"
-  },{
+  },
+  {
     "id": 10,
     "title": "Наушники Realme Buds T100 черный",
     "price": 9287,
@@ -207,7 +213,8 @@ export const products = [
       "count": 1430,
     },
     "url": "https://kaspi.kz/shop/p/realme-buds-t100-chernyi-107357596/?c=750000000"
-  },{
+  },
+  {
     "id": 11,
     "title": "Бекарыс",
     "price": 999,
@@ -222,3 +229,15 @@ export const products = [
 
   }
 ]
+
+
+export const category  = [{
+  "id": 0,
+  "name": "Раб"
+},{
+  "id": 1,
+  "name": "Смартфоны"
+},{
+"id": 2,
+  "name": "Зарядки"
+}]

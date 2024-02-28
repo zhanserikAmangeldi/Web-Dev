@@ -1,20 +1,15 @@
 
+
+
+
 <div class="container">
   <header>
     <h1 class="title">{{ title | titlecase}}</h1>
     <a href="#"><em class="material-symbols-outlined">shopping_cart</em>Корзина</a>
+
   </header>
   <br>
-
-
-  <div class="product-list">
-    <app-product
-      *ngFor="let product of products; let i = index"
-      [product]="product"
-    >
-    </app-product>
-
-  </div>
+<router-outlet></router-outlet>
 
 <!--<app-product [product]="products[0]" >-->
 

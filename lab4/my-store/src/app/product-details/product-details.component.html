@@ -1,0 +1,29 @@
+
+<div class="outer">
+  <div class="collage">
+    <img [src]="productDetail.image" [alt]="productDetail.title">
+  </div>
+  <div class="info">
+    <h4>{{productDetail.title}}</h4>
+    <div class="card-price">
+      <div class="debt">
+        <span class="debt-title">Цена</span>
+        <span class="debt-price">{{ productDetail.price.toString()}}</span>
+      </div>
+      <div class="credit">
+        <span class="credit-title">В рассрочку</span>
+        <div class="yellow">{{(productDetail.price/3)|number:'1.0-0'}} </div> x3
+      </div>
+      <div class="share-btn">
+        <a href="" (click)="shareClick(encodeURIComponent(productDetail.title + '\n' + productDetail.description.slice(0,100)), encodeURIComponent(productDetail.url))">
+          <img src="../../../assets/Telegram_logo.svg" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+

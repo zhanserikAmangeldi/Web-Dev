@@ -1,7 +1,7 @@
 <div class="product">
 
   <div class="card-sticker">
-    <div class="bonus">
+    <div class="bonus" (click)="removeObj()">
       <img src="https://resources.cdn-kaspi.kz/yml/static/assets/badges/l12.svg" alt="">
     </div>
     <div class="bonus">
@@ -13,7 +13,7 @@
   </div>
   <hr>
   <div class="product-link">
-    <a href="#popup{{product.id}}" target="_self">{{(product.title|slice:0:40) + "..."}}</a>
+    <a (click)="redirectToOtherComponent(product)" [queryParams]="{'prod': product}" routerLink="/product-details/{{product.id}}" routerLinkActive="active" ariaCurrentWhenActive="page" [state]="product">{{(product.title|slice:0:40) + "..."}}</a>
   </div>
   <div class="rate">
     <div class="star-rate"></div><a>({{product.rating['count']}} отзывов)</a>

@@ -1,0 +1,9 @@
+@import "@ng-select/ng-select/themes/default.theme.css";
+.product-list{
+  display: flex;
+  flex-wrap: wrap;
+  border-left: 1px solid #e5e5e5;
+  width: 720px;
+  margin: 0 auto;
+
+}
