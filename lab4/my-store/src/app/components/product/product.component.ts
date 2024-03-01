@@ -1,10 +1,12 @@
 import {Component, Input} from "@angular/core";
 import {IProduct} from "../../models/product";
-import {CurrencyPipe, DecimalPipe, SlicePipe} from "@angular/common";
+import {CurrencyPipe, DecimalPipe, NgIf, SlicePipe} from "@angular/common";
 import {RouterLink, RouterLinkActive} from "@angular/router";
 import {ProductDetailsComponent} from "../../product-details/product-details.component";
 import {ProductListComponent} from "../../product-list/product-list.component";
 import {Router} from "@angular/router"
+import {deletedProducts} from "../../data/products";
+
 import {products} from "../../data/products";
 @Component({
   selector: 'app-product',
@@ -15,7 +17,8 @@ import {products} from "../../data/products";
     DecimalPipe,
     SlicePipe,
     RouterLink,
-    RouterLinkActive
+    RouterLinkActive,
+    NgIf
   ],
   styleUrl: './product.component.css'
 })
@@ -23,6 +26,7 @@ import {products} from "../../data/products";
 
 export class ProductComponent {
   @Input() product: IProduct
+
 
   shareClick(text: string, url: string){
     const shareUrl = `https://t.me/share/url?url=${url}&text=${text}`;
@@ -34,7 +38,20 @@ export class ProductComponent {
     this.router.navigate(['/product-details/', +product.id]);
   }
 
+  removeObj(){
+    deletedProducts.push(this.product)
+    console.log(deletedProducts)
+  }
+  like(){
+    this.product.liked = !this.product.liked
+    if(this.product.liked){
+      this.product.likes += 1
+    }else{
+      this.product.likes -= 1
+    }
+  }
   protected readonly encodeURIComponent = encodeURIComponent;
+  protected readonly deletedProducts = deletedProducts;
 }
 
 

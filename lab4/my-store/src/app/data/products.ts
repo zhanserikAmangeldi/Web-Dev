@@ -1,3 +1,5 @@
+import {IProduct} from "../models/product";
+
 export const products = [
   {
   "id":1,
@@ -8,13 +10,190 @@ export const products = [
     "\n" +
     "\n" +
     "С его помощью можно быстро зарядить iPhone 8 или новее. ",
-  "category":"Зарядные устройства",
+  "category":"Зарядки",
   "image": "https://resources.cdn-kaspi.kz/img/m/p/h95/h0e/63961934823454.jpg?format=gallery-medium",
   "rating":{
     "rate":5,
     "count":1775
   },
-  "url":"https://kaspi.kz/shop/p/apple-20w-usb-c-power-adapter-belyi-100984093/?c=750000000"
+  "url":"https://kaspi.kz/shop/p/apple-20w-usb-c-power-adapter-belyi-100984093/?c=750000000",
+    "liked": false,
+    "likes": 8031
+  },{
+    "id": 11,
+    "title": "Смартфон Xiaomi Redmi 12 4G 8 ГБ/256 ГБ черный",
+    "price": 69_268,
+    "description": "технология NFC: Нет\n" +
+      "цвет: черный\n" +
+      "тип экрана: IPS, сенсорный\n" +
+      "диагональ: 6.79 дюйм\n" +
+      "размер оперативной памяти: 8 ГБ\n" +
+      "процессор: 8-ядерный MediaTek Helio G88\n" +
+      "объем встроенной памяти: 256.0 ГБ\n" +
+      "емкость аккумулятора: 5000.0 мАч",
+    "category": "Смартфоны",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h75/hbc/81335343775774.png?format=gallery-medium",
+    "rating":{
+      "rate": 5,
+      "count": 885
+    },
+    "url": "https://kaspi.kz/shop/p/xiaomi-redmi-12-4g-8-gb-256-gb-chernyi-110918152/?c=750000000",
+    "liked": false,
+    "likes": 9384
+  },{
+    "id": 12,
+    "title": "Смартфон Samsung Galaxy S24 Ultra 5G 12 ГБ/512 ГБ черный",
+    "price": 694_599,
+    "description": "технология NFC: Да\n" +
+      "цвет: черный\n" +
+      "тип экрана: Dynamic AMOLED 2X\n" +
+      "диагональ: 6.8 дюйм\n" +
+      "размер оперативной памяти: 12 ГБ\n" +
+      "процессор: 8-ядерный Snapdragon 8 Gen 3\n" +
+      "объем встроенной памяти: 512.0 ГБ\n" +
+      "емкость аккумулятора: 5000.0 мАч",
+    "category": "Смартфоны",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/hd1/h74/84963524706334.png?format=gallery-medium",
+    "rating":{
+      "rate": 5,
+      "count": 984
+    },
+    "url": "https://kaspi.kz/shop/p/samsung-galaxy-s24-ultra-5g-12-gb-512-gb-chernyi-116044201/?c=750000000",
+    "liked": false,
+    "likes": 743
+
+  },{
+    "id": 13,
+    "title": "Смартфон Xiaomi Redmi Note 13 Pro 4G 8 ГБ/256 ГБ черный",
+    "price": 121995,
+    "description": "технология NFC: Да\n" +
+      "цвет: черный\n" +
+      "тип экрана: AMOLED, сенсорный, Corning Gorilla Glass 5\n" +
+      "диагональ: 6.67 дюйм\n" +
+      "размер оперативной памяти: 8 ГБ\n" +
+      "процессор: 8-ядерный MediaTek Helio G99-Ultra\n" +
+      "объем встроенной памяти: 256.0 ГБ\n" +
+      "емкость аккумулятора: 5000.0 мАч",
+    "category": "Смартфоны",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h6d/ha2/84950367436830.png?format=gallery-medium",
+    "rating":{
+      "rate": 5,
+      "count": 984
+    },
+    "url": "https://kaspi.kz/shop/p/xiaomi-redmi-note-13-pro-4g-8-gb-256-gb-chernyi-115994614/?c=750000000",
+    "liked": false,
+    "likes": 743
+  },{
+    "id": 14,
+    "title": "Планшет Apple iPad 2021 Wi-Fi 10.2 дюйм 4 Гб/64 Гб серебристый",
+    "price": 151508,
+    "description": "Мощный. Простой в использовании и универсальный. iPad создан специально для ваших любимых занятий. Работайте, играйте, творите, учитесь, общайтесь и делайте множество других дел.\n" +
+      "Благодаря чипу A13 Bionic новый iPad реагирует быстрее в любой ситуации: когда вы отправляете сообщения, ищете контент в интернете или используете одновременно несколько приложений. Графический процессор обрабатывает изображения и видео до 20 процентов быстрее. Поэтому он идеально подходит, чтобы играть в игры со сложной графикой и делать множество других дел.\n" +
+      "На дисплее Retina 10,2 дюйма цвета отображаются ярко, а мельчайшие детали — удивительно чётко. Он идеален для просмотра фильмов и работы над вашим следующим шедевром.\n" +
+      "Функция «В центре внимания» ещё больше приближает видеосвязь к реальному общению: вы будете оставаться в центре кадра, даже когда передвигаетесь по комнате. А ваши видео для соцсетей станут ещё интереснее.\n" +
+      "В дополнение к функции «В центре внимания» сверх­широкоугольная фронтальная камера 12 Мп приятно удивит вас качеством фотографий, будь то селфи или групповые снимки. Широкоугольная камера 8 Мп на задней панели iPad снимает чёткие и яркие фото и видео. Многофункциональная камера на задней панели также позволяет сканировать документы и использовать иммерсивные приложения с дополненной реальностью.\n",
+    "category": "Планшеты",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h7e/h90/64072646492190.jpg?format=gallery-medium",
+    "rating":{
+      "rate": 5,
+      "count": 984
+    },
+    "url": "https://kaspi.kz/shop/p/apple-ipad-2021-wi-fi-10-2-djuim-4-gb-64-gb-serebristyi-102301731/?c=750000000",
+    "liked": false,
+    "likes": 743
+  },{
+    "id": 15,
+    "title": "Планшет Apple iPad Air 2022 Wi-Fi 10.9 дюйм 8 Гб/64 Гб серый",
+    "price": 292000,
+    "description": "Великолепный дисплей Liquid Retina 10,9 дюйма. Инновационный чип Apple M1 обеспечивает более высокую производительность, превращая Ipad Air в мощный инструмент для творчества и мобильных игр. Технология Touch ID, передовые камеры, сверхскоростная беспроводная связь, разъём USB-C, а еще поддержка клавиатуры Magic Keyboard и Apple Pencil (2-го поколения).\n" +
+      "\n" +
+      "Передовые камеры на передней и задней панелях. Более живое и естественное общение по видеосвязи с функцией «В центре внимания». Сканируйте документы и делайте в них пометки. Открывайте возможности дополненной реальности. С лёгкостью снимайте и редактируйте контент прямо на iPad Air.\n",
+    "category": "Планшеты",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/hff/h81/64382011146270.jpg?format=gallery-medium",
+    "rating":{
+      "rate": 5,
+      "count": 984
+    },
+    "url": "https://kaspi.kz/shop/p/apple-ipad-air-2022-wi-fi-10-9-djuim-8-gb-64-gb-seryi-104235453/?c=750000000",
+    "liked": false,
+    "likes": 579
+  },{
+    "id": 16,
+    "title": "Планшет SAIL Air SAILBook B10 10.1 дюйм 6 Гб/256 Гб синий",
+    "price": 38000,
+    "description": "диагональ: 10.1 дюйм\n" +
+      "разрешение экрана: 1280x800\n" +
+      "объем оперативной памяти: 6 Гб\n" +
+      "объем встроенной памяти: 256.0 Гб\n" +
+      "беспроводные интерфейсы: Wi-Fi, ,Bluetooth\n" +
+      "емкость аккумулятора: 5000.0 мАч\n" +
+      "цвет: синий",
+    "category": "Планшеты",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/hef/h4f/83330464088094.jpg?format=gallery-medium",
+    "rating":{
+      "rate": 5,
+      "count": 984
+    },
+    "url": "https://kaspi.kz/shop/p/sail-air-sailbook-b10-10-1-djuim-6-gb-256-gb-sinii-112590125/?c=750000000",
+    "liked": false,
+    "likes": 54
+  },{
+    "id": 17,
+    "title": "Планшет Samsung Galaxy Tab A9 LTE 8.7 дюйм 8 Гб/128 Гб серый",
+    "price": 94000,
+    "description": "диагональ: 8.7 дюйм\n" +
+      "разрешение экрана: 1340x800\n" +
+      "технология изготовления экрана: TFT PLS\n" +
+      "объем оперативной памяти: 8 Гб\n" +
+      "объем встроенной памяти: 128.0 Гб\n" +
+      "беспроводные интерфейсы: Wi-Fi, ,Bluetooth\n" +
+      "емкость аккумулятора: 5100.0 мАч\n" +
+      "цвет: серый",
+    "category": "Планшеты",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/ha0/hec/84176916578334.jpg?format=gallery-medium",
+    "rating":{
+      "rate": 5,
+      "count": 984
+    },
+    "url": "https://kaspi.kz/shop/p/samsung-galaxy-tab-a9-lte-8-7-djuim-8-gb-128-gb-seryi-113807362/?c=750000000",
+    "liked": false,
+    "likes": 846
+  },{
+    "id": 18,
+    "title": "Wi-Fi роутер TELE2 5G H155-380",
+    "price": 32000,
+    "description": "тип: Wi-Fi роутер\n" +
+      "максимальная скорость беспроводного соединения: 1024.0 Мбит/с\n" +
+      "стандарты Wi-Fi: Wi-Fi 5 (802.11ac)\n" +
+      "количество LAN портов: 2\n" +
+      "диапазоны частот: 2.4 ГГц, ,5 ГГц",
+    "category": "Роутеры",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h52/h70/84057077645342.png?format=gallery-medium",
+    "rating":{
+      "rate": 5,
+      "count": 984
+    },
+    "url": "https://kaspi.kz/shop/p/wi-fi-router-tele2-5g-h155-380-113565384/?c=750000000",
+    "liked": false,
+    "likes": 785
+  },{
+    "id": 19,
+    "title": "Wi-Fi роутер Xiaomi Mi AIoT Router AX6000",
+    "price": 48000,
+    "description": "тип: Wi-Fi роутер\n" +
+      "максимальная скорость беспроводного соединения: 6000.0 Мбит/с\n" +
+      "стандарты Wi-Fi: Wi-Fi 4 (802.11n), ,Wi-Fi 5 (802.11ac), ,Wi-Fi 6 (802.11ax)\n" +
+      "количество LAN портов: 3\n" +
+      "диапазоны частот: 2.4 ГГц, ,5 ГГц",
+    "category": "Роутеры",
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/h73/h5f/84869029330974.jpg?format=gallery-medium",
+    "rating":{
+      "rate": 5,
+      "count": 984
+    },
+    "url": "https://kaspi.kz/shop/p/wi-fi-router-xiaomi-mi-aiot-router-ax6000-104204079/?c=750000000",
+    "liked": false,
+    "likes": 847
   },
   {
     "id": 2,
@@ -49,7 +228,9 @@ export const products = [
       "rate": 5,
       "count": 1519,
     },
-    "url": "https://kaspi.kz/shop/p/apple-iphone-13-128gb-midnight-chernyi-102298404/?c=750000000"
+    "url": "https://kaspi.kz/shop/p/apple-iphone-13-128gb-midnight-chernyi-102298404/?c=750000000",
+    "liked": false,
+    "likes": 1023
   },
   {
     "id": 3,
@@ -83,7 +264,9 @@ export const products = [
       "rate": 5,
       "count": 338,
     },
-    "url": "https://kaspi.kz/shop/p/apple-iphone-15-128gb-chernyi-113137790/?c=750000000"
+    "url": "https://kaspi.kz/shop/p/apple-iphone-15-128gb-chernyi-113137790/?c=750000000",
+    "liked": false,
+    "likes": 2943
   },
   {
     "id": 4,
@@ -98,7 +281,9 @@ export const products = [
       "rate": 5,
       "count": 450
     },
-    "url": "https://kaspi.kz/shop/p/deerma-dx700s-seryi-100680527/?c=750000000"
+    "url": "https://kaspi.kz/shop/p/deerma-dx700s-seryi-100680527/?c=750000000",
+    "liked": false,
+    "likes": 874
   },
   {
     "id": 5,
@@ -111,7 +296,9 @@ export const products = [
       "rate": 5,
       "count": 231,
     },
-    "url": "https://kaspi.kz/shop/p/wi-fi-router-tp-link-archer-c80-100663389/?c=750000000"
+    "url": "https://kaspi.kz/shop/p/wi-fi-router-tp-link-archer-c80-100663389/?c=750000000",
+    "liked": false,
+    "likes": 395
   },
   {
     "id": 6,
@@ -125,7 +312,9 @@ export const products = [
       "rate": 5,
       "count": 613,
     },
-    "url": "https://kaspi.kz/shop/p/ssd-kingston-sa400s37-480-gb-6800659/?c=750000000"
+    "url": "https://kaspi.kz/shop/p/ssd-kingston-sa400s37-480-gb-6800659/?c=750000000",
+    "liked": false,
+    "likes": 400
   },
   {
     "id": 7,
@@ -139,7 +328,9 @@ export const products = [
       "rate": 5,
       "count": 713,
     },
-    "url": "https://kaspi.kz/shop/p/logitech-g102-lightsync-chernyi-100956618/?c=750000000"
+    "url": "https://kaspi.kz/shop/p/logitech-g102-lightsync-chernyi-100956618/?c=750000000",
+    "liked": false,
+    "likes": 4564
   },
   {
     "id": 8,
@@ -173,7 +364,9 @@ export const products = [
       "rate": 5,
       "count": 217,
     },
-    "url": "https://kaspi.kz/shop/p/apple-macbook-air-13-mgn93-serebristyi-100798912/?c=750000000"
+    "url": "https://kaspi.kz/shop/p/apple-macbook-air-13-mgn93-serebristyi-100798912/?c=750000000",
+    "liked": false,
+    "likes": 2945
   },
   {
     "id": 9,
@@ -193,7 +386,9 @@ export const products = [
       "rate": 5,
       "count": 7,
     },
-    "url": "https://kaspi.kz/shop/p/samsung-galaxy-tab-s9-sm-x716-11-djuim-8-gb-128-gb-grafit-112488621/?c=750000000"
+    "url": "https://kaspi.kz/shop/p/samsung-galaxy-tab-s9-sm-x716-11-djuim-8-gb-128-gb-grafit-112488621/?c=750000000",
+    "liked": false,
+    "likes": 2045
   },
   {
     "id": 10,
@@ -212,7 +407,9 @@ export const products = [
       "rate": 5,
       "count": 1430,
     },
-    "url": "https://kaspi.kz/shop/p/realme-buds-t100-chernyi-107357596/?c=750000000"
+    "url": "https://kaspi.kz/shop/p/realme-buds-t100-chernyi-107357596/?c=750000000",
+    "liked": false,
+    "likes": 2031
   },
   {
     "id": 11,
@@ -225,13 +422,16 @@ export const products = [
       "rate": 0,
       "count": 0,
     },
-    "url": "https://t.me/Illegalunicorn"
+    "url": "https://t.me/Illegalunicorn",
+    "liked": false,
+    "likes": 0
 
   }
 ]
 
 
-export const category  = [{
+export const category  = [
+  {
   "id": 0,
   "name": "Раб"
 },{
@@ -240,4 +440,12 @@ export const category  = [{
 },{
 "id": 2,
   "name": "Зарядки"
-}]
+},{
+    "id": 3,
+    "name": "Роутеры"
+},{
+    "id": 4,
+    "name": "Планшеты"
+  }]
+
+export let deletedProducts: IProduct[] = []

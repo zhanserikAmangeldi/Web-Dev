@@ -12,16 +12,60 @@
 
 
 .card-sticker{
+  display: grid;
+
+  grid-template-columns: 65px auto 30px;
+  grid-template-rows: repeat(2, 40px);
   position: absolute;
   top: 10px;
   left: 10px;
   z-index: 1;
+  width: 220px;
+  grid-template-areas:
+    "bonusRed gap delete"
+    "bonusGreen gap like";
 }
-.bonus img{
-  width: 65px;
-  height: 35px;
 
+.like {
+  text-align: center;
+  p{
+    margin: 0;
+  }
+  h1{
+
+    margin: 0;
+  }
+  grid-area: like;
 }
+
+.delete{
+  text-align: center;
+
+  h1{
+    color :red;
+    margin: 0;
+  }
+  display: inline-grid;
+  cursor: pointer;
+  grid-area: delete;
+}
+
+#bonus-red{
+  grid-area: bonusRed
+}
+
+#bonus-green{
+  grid-area: bonusGreen;
+}
+
+.bonus{
+
+  img{
+    width: 65px;
+    height: 35px;
+  }
+}
+
 .photo{
   width: 211px;
   height: 150px;

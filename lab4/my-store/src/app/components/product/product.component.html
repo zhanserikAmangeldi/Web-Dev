@@ -1,11 +1,21 @@
-<div class="product">
+<div class="product" *ngIf="!deletedProducts.includes(product)">
 
   <div class="card-sticker">
-    <div class="bonus" (click)="removeObj()">
+    <div class="bonus" id="bonus-red">
       <img src="https://resources.cdn-kaspi.kz/yml/static/assets/badges/l12.svg" alt="">
     </div>
-    <div class="bonus">
+    <div class="bonus" id="bonus-green">
       <img src="https://resources.cdn-kaspi.kz/yml/static/assets/badges/b5.svg" alt="">
+    </div>
+    <div class="delete" (click)="removeObj()">
+      <h1>X</h1>
+    </div>
+    <div class="like" (click)="like()">
+      <i class="fa-regular fa-heart" *ngIf="!product.liked; else liked"></i>
+      <ng-template #liked>
+        <i class="fa-solid fa-heart"></i>
+      </ng-template>
+      <p>{{product.likes}}</p>
     </div>
   </div>
   <div class="image-frame">

@@ -7,10 +7,12 @@ import {Category} from "./models/category";
 import { products as data} from './data/products';
 import { category as categoryData} from './data/products'
 import {ProductsService} from "./services/products.service";
+import { NgSelectModule } from '@ng-select/ng-select';
+import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, TitleCasePipe, ProductComponent, NgForOf, RouterLink, RouterLinkActive],
+  imports: [RouterOutlet, TitleCasePipe, ProductComponent, NgForOf, RouterLink, RouterLinkActive, NgSelectModule, FormsModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

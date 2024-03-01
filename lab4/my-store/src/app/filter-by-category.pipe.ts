@@ -11,6 +11,6 @@ export class FilterByCategoryPipe implements PipeTransform {
     if (!selectedCategoryId) {
       return products;
     }
-    return products.filter(product => product.title.match(selectedCategoryId.toString()));
+    return products.filter(product => product.title.toLowerCase().includes(selectedCategoryId.toLowerCase()));
   }
 }

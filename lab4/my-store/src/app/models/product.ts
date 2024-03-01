@@ -9,7 +9,9 @@ export interface IProduct {
     rate: number,
     count: number
   },
-  url: string
+  url: string,
+  liked: boolean
+  likes: number
 }
 
 

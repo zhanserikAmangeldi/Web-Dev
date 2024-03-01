@@ -7,3 +7,25 @@
   margin: 0 auto;
 
 }
+
+.ng-select.opened>.ng-control{
+  background:#fff;border-color:#b3b3b3 #ccc #d9d9d9
+}
+.ng-select.opened>.ng-control:hover{
+  box-shadow:none
+
+}
+.ng-select.opened>.ng-control .ng-arrow{
+  top:-2px;border-color:transparent transparent #999;border-width:0 5px 5px
+
+}
+.ng-select.opened>.ng-control .ng-arrow:hover{
+  border-color:transparent transparent #666
+}
+.ng-select.opened.bottom>.ng-control{
+  border-bottom-right-radius:0;border-bottom-left-radius:0
+}
+
+input{
+  padding: 10px 20px;
+}

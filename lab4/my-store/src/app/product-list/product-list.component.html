@@ -1,25 +1,12 @@
 
+<ng-select [items]="categories" bindLabel="name" (change)="onCategoryChange()" [(ngModel)]="selectedCategoryName" class="ng-select">
 
-
-
-
-
-
-
-
-<ng-select [items]="categories"
-           bindLabel="name"
-           [(ngModel)]="selectedCategoryName"
-          (change)="onCategoryChange()">
 </ng-select>
-
 
 <input type="text" [(ngModel)]="searchText" placeholder="Search Category" />
 <div class="product-list">
   <app-product
-    *ngFor="let product of products | filterByCategory:categories:searchText; let i = index"
-    *NgIf="product "
-    [product]="product">
+    *ngFor="let product of products | filterByCategory:categories:searchText; let i = index"  [product]="product">
   </app-product>
 
 </div>
