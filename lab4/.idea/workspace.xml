@@ -5,42 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="369bd4ae-5e80-4ab4-b893-e952a48f69d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../my-store/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/.vscode/extensions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/.vscode/tasks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/src/app/app.config.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/src/app/app.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/src/app/app.routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/src/app/components/product/product.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/src/app/components/product/product.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/src/app/components/product/product.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/src/app/data/products.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/src/app/models/product.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/src/app/services/products.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/src/assets/share.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/src/main.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-store/tsconfig.spec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lab4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lab4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-store/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../my-store/src/favicon.ico" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,24 +34,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;JavaScript Debug.product.component.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\amang\\Desktop\\Life\\University\\4th\\Subjects\\Web\\lab4\\my-store\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JavaScript Debug.product.component.html.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/amang/Desktop/Life/University/4th/Subjects/Web/lab4/my-store",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "C:\\Users\\amang\\Desktop\\Life\\University\\4th\\Subjects\\Web\\lab4\\my-store\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\amang\Desktop\Life\University\4th\Subjects\Web\lab4\my-store\src\assets" />
@@ -119,6 +85,8 @@
       <workItem from="1708590078089" duration="468000" />
       <workItem from="1708590560113" duration="4694000" />
       <workItem from="1708596143229" duration="6213000" />
+      <workItem from="1708664613586" duration="399000" />
+      <workItem from="1709045571294" duration="189000" />
     </task>
     <servers />
   </component>

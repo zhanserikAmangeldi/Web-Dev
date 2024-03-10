@@ -1,0 +1,37 @@
+<header class="top">
+  <div class="header-toolbar">
+    <div class="logo-container">
+      <a href="http://localhost:4200/home">
+        <img src="assets/logo.png" alt="Logo_Album" class="logo">
+      </a>
+    </div>
+    <input type="text" class="search" placeholder="Write what photo do you want to find">
+    <button class="search-button">Find</button>
+  </div>
+</header>
+
+<div class="main">
+  <router-outlet></router-outlet>
+</div>
+<footer class="bot">
+  <div class="footer-content">
+
+    <div class="list">
+      <h3>Navigation</h3>
+      <ul>
+        <li><a href="" routerLink="home" routerLinkActive="routerLinkActive">Home</a></li>
+        <li><a href="" routerLink="about" routerLinkActive="routerLinkActive">About us</a></li>
+        <li><a href="" routerLink="albums" routerLinkActive="routerLinkActive">Albums</a></li>
+      </ul>
+    </div>
+
+    <div class="list">
+      <h3>Contact</h3>
+      <ul>
+        <li>Islama Karimova 70 c1</li>
+        <li>+77054578237</li>
+        <li>zha_amangeldi&#64;kbtu.kz</li>
+      </ul>
+    </div>
+  </div>
+</footer>
