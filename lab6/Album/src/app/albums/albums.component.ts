@@ -26,4 +26,13 @@ export class AlbumsComponent {
       .subscribe(albums => this.albums = albums);
   }
 
+  deleteAlbum(id: String): void{
+    // console.log(Date.now())
+    this.albumsService.deleteAlbum(id).subscribe(() => {
+      this.albums = this.albums.filter(album => album.id !== +id)
+    })
+    this.getAlbums()
+    // console.log(Date.now())
+  }
+
 }

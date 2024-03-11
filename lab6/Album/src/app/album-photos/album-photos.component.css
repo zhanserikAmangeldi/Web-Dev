@@ -1,8 +1,29 @@
-.container{
+
+.photos{
   display: flex;
+  justify-content: start;
   width: 80%;
+  margin: 0 auto
+}
+
+
+.back{
+  margin-top: 50px;
+  width: 70px;
+}
+
+.container{
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 150px);
+  grid-template-rows: repeat(auto-fill, minmax(0, 250px));
+  justify-content: center;
+  grid-gap: 20px;
+  width: 960px;
   height: 100%;
-  flex-direction: column;
-  margin: 0 auto;
   padding: 20px
+}
+
+.title{
+  text-align: center;
 }

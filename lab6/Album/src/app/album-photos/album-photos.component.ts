@@ -3,6 +3,7 @@ import {PhotosService} from "../photos.service";
 import {Photo} from "../photo";
 import {ActivatedRoute, RouterLink, RouterLinkActive} from "@angular/router";
 import {NgForOf} from "@angular/common";
+import {Location } from '@angular/common'
 
 @Component({
   selector: 'app-album-photos',
@@ -16,16 +17,22 @@ import {NgForOf} from "@angular/common";
   styleUrl: './album-photos.component.css'
 })
 export class AlbumPhotosComponent {
-  constructor(private photosService: PhotosService, private route: ActivatedRoute,) {  }
+  constructor(private photosService: PhotosService, private route: ActivatedRoute, private _location: Location) {  }
   photos:Photo[] = []
 
   ngOnInit(): void {
     this.getPhotos();
   }
 
+
+
   getPhotos(): void {
     const id = Number(this.route.snapshot.paramMap.get("id")?.slice(1, ));
     this.photosService.getPhotosByID(id)
       .subscribe(photos => this.photos = photos.filter(photo => photo.albumId == id));
+  }
+
+  backButton(){
+      this._location.back();
   }
 }
