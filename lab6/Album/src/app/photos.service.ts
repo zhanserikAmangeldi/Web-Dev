@@ -16,8 +16,4 @@ export class PhotosService {
     return this.http.get<Photo[]>(this.photosAPI)
   }
 
-  getPhotosByID( id:number ):Observable<Photo[]>{
-    return this.http.get<Photo[]>(this.photosAPI)
-  }
-
 }

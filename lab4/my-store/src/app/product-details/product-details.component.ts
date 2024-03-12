@@ -22,7 +22,7 @@ export class ProductDetailsComponent implements OnInit{
   ngOnInit() {
     this.router.params.subscribe(params => {
       this.productDetail =
-        (products.filter(function (obj:IProduct){return obj.id.toString() === params['id']})).at(0) as IProduct
+        (products.filter(function (obj:IProduct){return obj.id.toString() === params['id']})) .at(0) as IProduct
     });
 
 }

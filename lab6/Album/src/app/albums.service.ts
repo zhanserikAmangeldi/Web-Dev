@@ -20,10 +20,14 @@ export class AlbumsService {
     return this.http.get<Album[]>(this.albumsAPI)
   }
 
-
   deleteAlbum(id: String): Observable<{}>{
-    return this.http.delete(`http://localhost:3000/albums/${id}`)
+    return this.http.delete(`http://localhost:3000/albums/${+id}`)
+  }
+  updateAlbum(data: any, id: string): Observable<any> {
+    return this.http.patch(`http://localhost:3000/albums/${id}`, data)
   }
 
-
+  postAlbum(album: Album): Observable<any> {
+    return this.http.post(`http://localhost:3000/albums`, album)
+  }
 }

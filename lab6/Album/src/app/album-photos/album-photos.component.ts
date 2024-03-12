@@ -28,7 +28,7 @@ export class AlbumPhotosComponent {
 
   getPhotos(): void {
     const id = Number(this.route.snapshot.paramMap.get("id")?.slice(1, ));
-    this.photosService.getPhotosByID(id)
+    this.photosService.getPhotos()
       .subscribe(photos => this.photos = photos.filter(photo => photo.albumId == id));
   }
 
