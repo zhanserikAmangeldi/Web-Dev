@@ -1,4 +1,7 @@
 if __name__ == '__main__':
     n = int(input())
     arr = map(int, input().split())
-    print(list(set(arr)).remove(5))
+    arr_set = sorted(list(set(arr)))
+    print(arr_set[-2])
+    
+    
